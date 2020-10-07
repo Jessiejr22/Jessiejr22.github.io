@@ -1,1 +1,415 @@
+<!doctype html>
 
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Resume</title>
+
+<style type="text/css">
+
+#container {
+
+    width: 90%;
+
+    background-color: #FFFFFF;
+
+    border-style: ridge;
+
+    border-color: #000000;
+
+    min-height: 1000px;
+
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+
+    display: grid;
+
+    grid-gap: 10px;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-left: 5%;
+
+    margin-right: 5%;
+
+    -webkit-box-shadow: 9px 0px 20px 0px;
+
+    border-radius: 6%;
+
+    box-shadow: 9px 0px 20px 0px;
+
+}
+
+body {
+
+    -webkit-box-shadow: 0px 0px;
+
+    box-shadow: 0px 0px;
+
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(186,187,255,1.00) 100%);
+
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(186,187,255,1.00) 100%);
+
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(186,187,255,1.00) 100%);
+
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(186,187,255,1.00) 100%);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center center;
+
+    width: 100%;
+
+    height: 100%;
+
+    min-height: 1000px;
+
+}
+
+#title {
+
+    width: 100%;
+
+    text-align: center;
+
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+
+    font-size: x-large;
+
+    font-weight: bolder;
+
+    grid-row: 1;
+
+    grid-column: 1;
+
+	display: grid;
+
+	align-items: center;
+
+	justify-content: center;
+
+}
+
+#container img {
+
+    border-style: solid;
+
+	grid-row: 1;
+
+	grid-column: 2;
+
+}
+
+#title a {
+
+    width: 100%;
+
+	text-align: center;
+
+}
+
+#nav {
+
+    text-align: center;
+
+    display: grid;
+
+    grid-auto-flow: column;
+
+    grid-auto-columns: 25%;
+
+    grid-row: 2;
+
+    grid-column: 1/span 2;
+
+}
+
+#nav a2 {
+
+    border-style: double;
+
+    border-color: #000000;
+
+    border-radius: 15px;
+
+    margin-left: 2%;
+
+    font-weight: bold;
+
+    font-size: large;
+
+    text-align: center;
+
+    margin-right: 2%;
+
+}
+
+#nav a2:hover{
+
+    background-color: #000000;
+
+    color: #FFFFFF;
+
+}
+
+#leftcol {
+
+    grid-row: 3;
+
+    grid-column: 1;
+
+    text-align: left;
+
+}
+
+#leftcol p {
+
+    font-weight: bolder;
+
+    text-align: center;
+
+}
+
+#leftcol p1 {
+
+}
+
+#rightcolcon {
+
+    grid-row: 3;
+
+    grid-column: 2;
+
+    float: left;
+
+    border-style: solid;
+
+    margin-right: 20px;
+
+    margin-left: 20px;
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+}
+
+#rightcol {
+
+    grid-row: 3;
+
+    grid-column: 2;
+
+    text-align: left;
+
+    float: left;
+
+	display: grid
+
+}
+
+#rightcol p {
+
+    font-weight: bolder;
+
+    text-align: center;
+
+}
+
+#rightcol p1 {
+
+    grid-row: 2;
+
+    grid-column: 1;
+
+    padding-right: 0px;
+
+}
+
+#rightcol p2 {
+
+    grid-row: 2;
+
+    grid-column: 2;
+
+    margin-left: 25px;
+
+}
+
+#rightcol p3 {
+
+    grid-row: 3;
+
+    grid-column: 2;
+
+    margin-left: 25px;
+
+}
+
+#rightcol p4 {
+
+	grid-row: 3;
+
+	grid-column: 1
+
+}
+
+#footer {
+
+    grid-row: 4;
+
+    grid-column: 1 /span 2;
+
+    border-top-style: solid;
+
+    min-height: 96px;
+
+    text-align: center;
+
+	display: grid;
+
+}
+
+#footer p1 {
+
+    font-weight: bolder;
+
+	grid-row: 1;
+
+	grid-column: 1/span 4;
+
+}
+
+#footer p2 {
+
+	grid-row: 2;
+
+	grid-column: 1;
+
+}
+
+#footer p3 {
+
+	grid-row: 2;
+
+	grid-column: 2;
+
+}
+
+#footer p4 {
+
+	grid-row: 2;
+
+	grid-column: 3;
+
+}
+
+#footer p5 {
+
+	grid-row: 2;
+
+	grid-column: 4;
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<div id="container">
+
+	<div id="title">Jessie Williams<a>517 N 137th St., Seattle, WA, 98133</a><a>###-###-####</a>
+
+	</div>
+
+	<img src="xd" alt="" width="250" height="150"/>
+
+	<div id="nav">
+
+		<a2 href="">Objective
+
+		</a2>
+
+		<a2 href="">Employement & Volunteer Experience
+
+		</a2>
+
+		<a2 href="">Achievements
+
+		</a2>
+
+		<a2 href="">Education
+
+		</a2>
+
+	</div>
+
+	
+
+	<div id="leftcol">
+
+		<p>Objective</p>
+
+		<p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti provident harum magnam eum aliquam fugit reprehenderit consectetur in ipsam ullam repudiandae corporis adipisci maxime dolor totam natus tenetur, maiores veniam expedita neque distinctio voluptatem? Voluptates, quisquam, similique. Animi ex praesentium, explicabo quis sapiente officia assumenda enim eos veritatis, repudiandae ab. Neque, facilis, molestiae? Quo dolore quia recusandae minus, dignissimos nihil ipsa, ut corrupti vero accusamus nemo, voluptatem! Necessitatibus laborum inventore eveniet tenetur repudiandae rem, esse impedit mollitia quam voluptatum, nulla ipsum similique neque. Nisi voluptates, nemo, quo molestias adipisci porro eius cum recusandae odit natus velit provident eligendi, accusamus reprehenderit.</p1>
+
+		
+
+		<p>Achievements</p>
+
+		<p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aut, qui, expedita suscipit adipisci cupiditate error totam debitis consequatur, amet aliquam deleniti consequuntur. Libero maxime laudantium ducimus quod illum saepe aliquid, ipsa, maiores, totam asperiores non perferendis placeat, cumque vel? Optio placeat aperiam illum nihil eos. Nesciunt qui odio perferendis ipsum tempore, iure distinctio dicta recusandae maiores modi, omnis, blanditiis veritatis iste optio, alias sit sapiente facilis. Nihil unde nemo sed esse, reiciendis! Libero dolore ad, consectetur officia harum. Quaerat assumenda veniam, soluta laborum aperiam exercitationem neque voluptas molestiae voluptatum nisi cumque repellendus a magni harum, natus qui accusantium maxime!</p1>
+
+		<p>Education</p>
+
+		<p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, provident, blanditiis non, consectetur impedit ullam laborum voluptatem dolorum ratione, magnam incidunt. Earum consequuntur iusto non illo eum perspiciatis error natus, molestias aspernatur eligendi aperiam maxime illum maiores repellat cumque, similique harum accusamus ab incidunt sapiente culpa quidem dolorum dolorem. Esse deleniti sit, consequuntur voluptatum a amet eligendi ut ipsam dicta recusandae voluptate iure unde rem reiciendis error ipsum, tempora illo facilis voluptas adipisci. Nihil voluptas pariatur deleniti aut ducimus? Corporis nihil aspernatur, autem nam quo esse temporibus impedit, maiores debitis sit fugiat rem deleniti earum eaque. Animi obcaecati dignissimos beatae.</p1>
+
+	</div>
+
+	<div id="rightcolcon">
+
+	<div id="rightcol">
+
+		<p>Employement & Volunteer Experience</p>
+
+		<p2>dates, addresses, and contact info</p2>
+
+		<p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ipsa qui harum, totam cum rerum mollitia ea sed, error laudantium vero placeat voluptates inventore temporibus quia ratione cupiditate pariatur nisi quidem minus voluptatibus tempore eligendi, numquam aut culpa. Placeat aut officia accusamus, fuga tempora atque veniam iusto dolorum. Minus, dignissimos. Numquam enim doloribus quaerat quas pariatur officiis, praesentium dolorem explicabo distinctio molestiae eum rem ipsum fugit sit dicta at corporis mollitia quo nostrum voluptates repudiandae non possimus voluptate. Qui velit recusandae consectetur, vitae non ipsum adipisci, voluptate, quis aspernatur accusamus nemo architecto omnis? Consectetur numquam laboriosam eum sunt similique blanditiis!</p1>
+
+		<p3>dates, addresses, and contact info</p3>
+
+		<p4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ut consectetur eos dolorem deleniti ducimus, atque eaque tempora assumenda. Quam, modi! Recusandae necessitatibus, possimus. Necessitatibus modi, dignissimos dolores non, expedita nemo aperiam voluptate qui autem ratione amet, reprehenderit maxime sit, exercitationem minima voluptates! Necessitatibus quia rem eaque obcaecati repudiandae eveniet vitae a ducimus, recusandae, harum esse iusto atque voluptatum cupiditate odio doloremque laudantium corporis beatae quas libero eligendi ad. Temporibus dolor iusto sit ab excepturi, maxime enim blanditiis. Incidunt doloremque eligendi, ducimus maiores magni placeat esse. Beatae dolores corporis dolore aperiam impedit quisquam, est iste fuga ad, quas nisi sed.</p4>
+
+	</div></div>
+
+	<div id="footer">
+
+		<p1>References</p1>
+
+		<p2>John Trust</p2>
+
+		<p3>Tyler Ken</p3>
+
+		<p4>Eli Garcia</p4>
+
+		<p5>Kirk Slovia</p5>
+
+	</div>
+
+
+
+</div>
+
+	
+
+</body>
+
+</html>
