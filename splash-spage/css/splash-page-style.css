@@ -1,8 +1,11 @@
 <style type="text/css">
-#body {
+header {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+body {
+    background-image: image"C:\School\IT312\Jessiejr22.github.io\splash-spage\images\#103-Ilham-Rahmansyah"
 }
 </style>
