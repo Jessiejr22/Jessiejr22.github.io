@@ -1,6 +1,8 @@
-p:first-child {
-    color: lime;
+<style type="text/css">
+#body {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-p:last-child {
-    color: red;
-}
+</style>
