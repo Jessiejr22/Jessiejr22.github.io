@@ -173,7 +173,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 }
 
 .product-img {
-    width:100%;
+    width:25%;
     border-top-right-radius:2rem;
     border-top-left-radius:2rem;
 }
@@ -184,6 +184,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     align-items:center;
     justify-content: center;
     overflow: hidden;
+    max-height:75%; 
 }
 
 .product-card-details {
