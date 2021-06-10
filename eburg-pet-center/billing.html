@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ellensburg Pet Care</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="home">
+
+<!-- Navbar Section -->
+
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="index.html" id="navbar-logo">Ellensburg Pet Care</a>
+        <div class="navbar-toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-links" id="home-page">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="products.html" class="navbar-links" id="services-page">Pet Products</a>
+          </li>
+          <li class="navbar-item">
+            <a href="cart.html" class="navbar-links" id="cart-page">Cart</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+    
+<!-- Main Content -->
+
+    <main>
+      <div class="billing">
+        <div class="checkout">
+          <h2>Checkout</h2>
+        </div>
+            <form method="POST" action="php/test.php">
+            <ul class="form">
+          <li>
+            <div><label  for="fname">First Name</label></div>
+                  <div><input  type="text" name="fname" id="fname"></div>
+          </li>
+          <li>
+            <div><label for="lname">Last Name</label></div>
+                  <div><input type="text" name="lname" id="lname"></div>
+          </li>
+          <li>
+            <div><label for="add1">Address Line 1</label></div>
+                  <div><input type="text" name="add1" id="add1"></div>
+          </li> 
+          <li>
+            <div><label for="add2">Address Line 2</label></div>			
+                  <div><input type="text" name="add2" id="add2"></div>
+          </li>
+          <li>
+            <div><label for="city">City</label></div>
+                  <div><input type="text" name="city" id="city"></div>
+          </li>			
+          <li>
+            <div><label for="state">State</label></div>
+            <div><select name="state" id="state">
+            <option value="AL">Alabama (AL)</option>
+            <option value="AK">Alaska (AK)</option>
+            <option value="AZ">Arizona (AZ)</option>
+            <option value="AR">Arkansas (AR)</option>
+            <option value="CA">California (CA)</option>
+            <option value="CO">Colorado (CO)</option>
+            <option value="CT">Connecticut (CT)</option>
+            <option value="DE">Delaware (DE)</option>
+            <option value="DC">District Of Columbia (DC)</option>
+            <option value="FL">Florida (FL)</option>
+            <option value="GA">Georgia (GA)</option>
+            <option value="HI">Hawaii (HI)</option>
+            <option value="ID">Idaho (ID)</option>
+            <option value="IL">Illinois (IL)</option>
+            <option value="IN">Indiana (IN)</option>
+            <option value="IA">Iowa (IA)</option>
+            <option value="KS">Kansas (KS)</option>
+            <option value="KY">Kentucky (KY)</option>
+            <option value="LA">Louisiana (LA)</option>
+            <option value="ME">Maine (ME)</option>
+            <option value="MD">Maryland (MD)</option>
+            <option value="MA">Massachusetts (MA)</option>
+            <option value="MI">Michigan (MI)</option>
+            <option value="MN">Minnesota (MN)</option>
+            <option value="MS">Mississippi (MS)</option>
+            <option value="MO">Missouri (MO)</option>
+            <option value="MT">Montana (MT)</option>
+            <option value="NE">Nebraska (NE)</option>
+            <option value="NV">Nevada (NV)</option>
+            <option value="NH">New Hampshire (NH)</option>
+            <option value="NJ">New Jersey (NJ)</option>
+            <option value="NM">New Mexico (NM)</option>
+            <option value="NY">New York (NY)</option>
+            <option value="NC">North Carolina (NC)</option>
+            <option value="ND">North Dakota (ND)</option>
+            <option value="OH">Ohio (OH)</option>
+            <option value="OK">Oklahoma (OK)</option>
+            <option value="OR">Oregon (OR)</option>
+            <option value="PA">Pennsylvania (PA)</option>
+            <option value="RI">Rhode Island (RI)</option>
+            <option value="SC">South Carolina (SC)</option>
+            <option value="SD">South Dakota (SD)</option>
+            <option value="TN">Tennessee (TN)</option>
+            <option value="TX">Texas (TX)</option>
+            <option value="UT">Utah (UT)</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+            <option value="AS">American Samoa (AS)</option>
+            <option value="GU">Guam (GU)</option>
+            <option value="MP">Northern Mariana Islands (MP)</option>
+            <option value="PR">Puerto Rico (PR)</option>
+            <option value="UM">United States Minor Outlying Islands (UM)</option>
+            <option value="VI">Virgin Islands (VI)</option>
+            <option value="AA">Armed Forces Americas (AA)</option>
+            <option value="AP">Armed Forces Pacific (AP)</option>
+            <option value="AE">Armed Forces Others (AE)</option>
+          </select></div>
+          </li>
+          <li>
+            <div><label for="zip">Zip</label></div>
+            <div><input type="text" pattern="^\s*?\d{5}(?:[-\s]\d{4})?\s*?$" title="Five digit zip code"></div>
+          </li>
+		  <br>	
+          <li>
+			<div><label for="pay">Select Delivery Method:</label></div>
+		  </li>
+		  <li>	  
+            <div><label for="pay">Standard</label></div>
+            <div><input type="radio" name="pay" id="pay"> </div>
+		  </li>
+		  <li>				  
+			<div><label for="pay">Express</label></div>
+			<div><input type="radio" name="pay" id="pay"/></div>
+		  </li>
+		  <br>
+          <li>
+            <div><label  for="bphone">Billing Phone</label></div>
+            <div><input type="tel" id="bphone" name="bphone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></div>
+          </li>
+                <li>
+            <div><label for="bemail">Billing Email</label></div>
+                  <div><input type="bemail" name="bemail" id="bemail"></div>
+          </li>
+		  <br>	
+		  <li>
+			<div><label for="pay">Select Payment Type:</label></div>
+		  </li>
+		  <li>	  
+            <div><label for="pay">Credit</label></div>
+            <div><input type="radio" name="pay" id="pay"> </div>
+		  </li>
+		  <li>				  
+			<div><label for="pay">Debit</label></div>
+			<div><input type="radio" name="pay" id="pay"/></div>
+		  </li>
+		  <li>			
+			<div><label for="pay">Paypal</label></div>	
+			<div><input type="radio" name="pay" id="pay"/></div>
+          </li>
+		  <br>
+          <li>
+            <div><label for="cname">Name on Card</label></div>
+                  <div><input type="text" name="cname" id="cname"></div>
+          </li>
+          <li>
+            <div><label for="ccn">Card Number</label></div>
+            <div><input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx"></div>
+          </li>
+          <li>
+            <div><label for="exp">Expiration</label></div>
+                  <div><input type="text" name="exp" id="exp" maxlength="5"></div>
+          </li>
+          <li>
+            <div><label for="cvc">CVC</label></div>
+                  <div><input type="text" name="cvc" id="cvc" maxlength="3" ></div>
+          </li>       
+        </ul>	
+      </div>
+	<article class="buttonbutton">
+		  <button type="submit" id="submit">
+          <a href="success.html">Place Order</a>
+        </button>
+    </article>		  
+
+   <!-- Footer Section -->
+
+    <footer class="page-footer">
+      <section class="social-media">
+        <div class="social-media-wrap">
+          <div class="footer-logo">Ellensburg Pet Care
+          </div>
+          <p class="website-rights">All the Pets You Love & Everything They Need</p>
+          <div class="social-icons">
+            <a href="/" class="social-icon-link"><i class="fab fa-facebook"></i></a>
+            <a href="/" class="social-icon-link"><i class="fab fa-twitter"></i></a>
+            <a href="/" class="social-icon-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+    </main>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/scroll.js"></script>
+  </body>
+</html>
