@@ -30,6 +30,12 @@ body {
         color:var(--main-color);
         background-color:var(--main-background-color);
 }
+a {
+    text-decoration:none;
+    color:var(--main-link-color);
+    font-family: var(--secondary-font);
+}
+
 
 .social-media-links {
     padding:2%;

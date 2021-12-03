@@ -132,60 +132,7 @@ path {fill:#333;
     color:#9b3638;
 }
 
-.gallery {
-    margin:0;
-    width:100%;
-    display:grid;
-    grid-template-columns:1fr;
-    grid-gap:.5rem;
-    filter:drop-shadow(.5rem .5rem 1rem #333);
-}
 
-.gallery-item {
-    margin:auto;
-    position: relative;
-    width:100%;
-    background-color:transparent;
-}
-
-.gallery-item > figure {
-    margin:0;
-    width:100%;
-}
-
-.gallery-item > figure > img {
-    width:100%;
-    clip-path: inset(15% 0 35% 0);
-}
-
-.gallery-item-1 {
-    margin-top:-15%;
-}
-
-.gallery-item-2,
-.gallery-item-3,
-.gallery-item-4{
-    margin-top:-78%;
-}
-
-/* Fade */
-         
-.overlay {
-    position: absolute;
-    top:0;
-    left:0;
-    height: 100%;
-    width:100%;
-    opacity:0;
-    transition:.75s ease;
-
-}
-
-.gallery-item:hover .overlay,
-.gallery-item:active .overlay {
-  opacity:.8;
-    transition:.75s ease;
-}
 
 .text {
     display:flex;
